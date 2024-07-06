@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate File List</title>
+</head>
+<body>
+    <h1>Generate File List</h1>
+    <form action="/generate_file_list" method="post">
+        <label for="master_directory">Enter the Master Directory:</label>
+        <input type="text" id="master_directory" name="master_directory" required><br><br>
+        
+        <label for="x_days">Enter the Number of Days:</label>
+        <input type="number" id="x_days" name="x_days" required><br><br>
+        
+        <label for="output_file">Enter the Output File Path:</label>
+        <input type="text" id="output_file" name="output_file" required><br><br>
+        
+        <button type="submit">Generate File List</button>
+    </form>
+</body>
+</html>
