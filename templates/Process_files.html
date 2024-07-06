@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Files</title>
+</head>
+<body>
+    <h1>Process Files</h1>
+    <form action="/process_files" method="post">
+        <label for="order_priority_file">Enter the Order Priority File Path:</label>
+        <input type="text" id="order_priority_file" name="order_priority_file" required><br><br>
+        
+        <label for="source_folder">Enter the Source Folder Path:</label>
+        <input type="text" id="source_folder" name="source_folder" required><br><br>
+        
+        <label for="master_folder">Enter the Master Folder Path:</label>
+        <input type="text" id="master_folder" name="master_folder" required><br><br>
+        
+        <button type="submit">Process Files</button>
+    </form>
+</body>
+</html>
